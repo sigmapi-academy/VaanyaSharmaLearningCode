@@ -1,0 +1,5 @@
+fileName = input('Enter any file name: ')
+fb = open("FileHandling/DataFiles/"+fileName, "a")
+sent = input("Enter any sentence: ")
+fb.write(sent+"\n")
+fb.close()

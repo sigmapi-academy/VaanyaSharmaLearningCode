@@ -1,0 +1,5 @@
+fileName= input('Enter any file name: ')
+fo = open("FileHandling/DataFiles/"+fileName, "r")
+content = fo.read()
+print(content)
+fo.close()
