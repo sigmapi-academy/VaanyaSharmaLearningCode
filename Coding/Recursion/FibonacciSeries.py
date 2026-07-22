@@ -15,7 +15,7 @@ def numberOfterms(start:int, n:int):
         
 
 # main code
-n = int(input('Enter number of terms'))
+n = int(input('Enter number of terms: '))
 
 numberOfterms(1, n)
 
