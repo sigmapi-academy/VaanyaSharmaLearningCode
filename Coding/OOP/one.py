@@ -12,7 +12,7 @@ class Parent:
 
 # main code
 
-alice = Parent('p101', 'Alice', 'alice@g.com', 'JK Road Block: B45 Texsus', '9876523')
+alice = Parent('p101', 'Alice', 'alice@g.com', 'JK Road Block: B45 Texas', '9876523')
 bob = Parent('p102', 'Bob', 'alice@g.com', 'JK Road Block: B78 Texsus', '98765432')
    
 print(alice.greet())
